@@ -28,23 +28,26 @@ export default class ContactForm extends Component {
     };
 
     render() {
-        const { props, state, handlerInput, handlerSubmit } = this;
-        const { name, number } = state;
+        const { name, number } = this.state;
         return (
-            <Form onSubmit={e => props.handlerSubmit(e, handlerSubmit())}>
+            <Form
+                onSubmit={e =>
+                    this.props.handlerSubmit(e, this.handlerSubmit())
+                }
+            >
                 <Title>Name</Title>
                 <Input
                     type="text"
                     value={name}
                     name="name"
-                    onChange={handlerInput}
+                    onChange={this.handlerInput}
                 />
                 <Title>Number</Title>
                 <Input
                     type="text"
                     value={number}
                     name="number"
-                    onChange={handlerInput}
+                    onChange={this.handlerInput}
                 />
                 <br />
                 <Button type="submit">Add contact</Button>

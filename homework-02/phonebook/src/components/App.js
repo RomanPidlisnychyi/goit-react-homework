@@ -56,28 +56,23 @@ export default class App extends Component {
     };
 
     render() {
-        const {
-            state,
-            addContact,
-            handlerInput,
-            handlerFilter,
-            removeContact,
-        } = this;
-        const { contacts, filter } = state;
-        const filtredName = handlerFilter();
+        const { contacts, filter } = this.state;
+        const filtredName = this.handlerFilter();
         return (
             <Layout>
                 <Title>Phonebook</Title>
-                <ContactForm handlerSubmit={addContact} contacts={contacts} />
+                <ContactForm
+                    handlerSubmit={this.addContact}
+                    contacts={contacts}
+                />
                 <Title>Contacts</Title>
                 {contacts.length > 1 && (
-                    <Filter onInputChange={handlerInput} value={filter} />
+                    <Filter onInputChange={this.handlerInput} value={filter} />
                 )}
-
                 {contacts.length > 0 && (
                     <ContactList
                         filtredName={filtredName}
-                        onRemove={removeContact}
+                        onRemove={this.removeContact}
                     />
                 )}
             </Layout>

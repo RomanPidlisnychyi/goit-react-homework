@@ -3,11 +3,7 @@ import Layout from './Layout';
 import ContactForm from './ContactForm';
 import Filter from './Filter';
 import ContactList from './ContactList';
-import styled from 'styled-components';
-
-const Title = styled.h2`
-    margin: 15px 0;
-`;
+import Title from './styles';
 
 export default class App extends Component {
     state = {

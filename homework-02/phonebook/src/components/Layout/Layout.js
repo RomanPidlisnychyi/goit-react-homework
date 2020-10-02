@@ -1,10 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
+import Container from './styles';
 import PropTypes from 'prop-types';
-
-const Container = styled.div`
-    width: 300px;
-`;
 
 export default function Layout({ children }) {
     return <Container>{children}</Container>;

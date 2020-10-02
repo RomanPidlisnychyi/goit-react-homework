@@ -1,13 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Paragraph } from '../styles';
 import PropTypes from 'prop-types';
-
-const Paragraph = styled.p`
-    margin-bottom: 10px;
-    &:last-child {
-        margin-bottom: 0;
-    }
-`;
 
 export default function Statistics({
     good,

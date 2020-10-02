@@ -1,10 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Title } from '../styles';
 import PropTypes from 'prop-types';
 
-const Title = styled.h2`
-    margin: 20px 0;
-`;
 export default function Section({ title, children }) {
     return (
         <section>

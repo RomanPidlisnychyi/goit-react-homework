@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/goit-react-homework/homework-02/phonebook/build/static/css/main.84d62536.chunk.css",
-    "main.js": "/goit-react-homework/homework-02/phonebook/build/static/js/main.fab16c6b.chunk.js",
-    "main.js.map": "/goit-react-homework/homework-02/phonebook/build/static/js/main.fab16c6b.chunk.js.map",
+    "main.js": "/goit-react-homework/homework-02/phonebook/build/static/js/main.a898a1d0.chunk.js",
+    "main.js.map": "/goit-react-homework/homework-02/phonebook/build/static/js/main.a898a1d0.chunk.js.map",
     "runtime-main.js": "/goit-react-homework/homework-02/phonebook/build/static/js/runtime-main.a8394b9b.js",
     "runtime-main.js.map": "/goit-react-homework/homework-02/phonebook/build/static/js/runtime-main.a8394b9b.js.map",
     "static/js/2.dc220d39.chunk.js": "/goit-react-homework/homework-02/phonebook/build/static/js/2.dc220d39.chunk.js",
     "static/js/2.dc220d39.chunk.js.map": "/goit-react-homework/homework-02/phonebook/build/static/js/2.dc220d39.chunk.js.map",
     "index.html": "/goit-react-homework/homework-02/phonebook/build/index.html",
-    "precache-manifest.e3bc9590fe9f2f8061bf047ac9f71af4.js": "/goit-react-homework/homework-02/phonebook/build/precache-manifest.e3bc9590fe9f2f8061bf047ac9f71af4.js",
+    "precache-manifest.2d82b9329988dea3f50e130515239e1d.js": "/goit-react-homework/homework-02/phonebook/build/precache-manifest.2d82b9329988dea3f50e130515239e1d.js",
     "service-worker.js": "/goit-react-homework/homework-02/phonebook/build/service-worker.js",
     "static/css/main.84d62536.chunk.css.map": "/goit-react-homework/homework-02/phonebook/build/static/css/main.84d62536.chunk.css.map",
     "static/js/2.dc220d39.chunk.js.LICENSE.txt": "/goit-react-homework/homework-02/phonebook/build/static/js/2.dc220d39.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a8394b9b.js",
     "static/js/2.dc220d39.chunk.js",
     "static/css/main.84d62536.chunk.css",
-    "static/js/main.fab16c6b.chunk.js"
+    "static/js/main.a898a1d0.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5039c0eb4664c371ea51e2c6c1d92498",
+    "revision": "08892dfbac13b57787d9fae931527138",
     "url": "/goit-react-homework/homework-03/image-finder/build/index.html"
   },
   {
-    "revision": "e4f55d2a05c0821d5158",
+    "revision": "c1c3b3502b6958c16d3b",
     "url": "/goit-react-homework/homework-03/image-finder/build/static/css/main.58db2465.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goit-react-homework/homework-03/image-finder/build/static/js/2.cf45a201.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4f55d2a05c0821d5158",
-    "url": "/goit-react-homework/homework-03/image-finder/build/static/js/main.1326b4d4.chunk.js"
+    "revision": "c1c3b3502b6958c16d3b",
+    "url": "/goit-react-homework/homework-03/image-finder/build/static/js/main.8ac4e5b0.chunk.js"
   },
   {
     "revision": "5e28283b922e4d9b7881",

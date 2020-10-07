@@ -83,7 +83,7 @@ export default class App extends Component {
         return (
             <Layout>
                 <Searchbar onSubmit={this.updateQuery} />
-                {loading && <Spinner height={100} width={100} />}
+
                 {images.length > 0 && (
                     <ImageGallery
                         images={images}
@@ -91,9 +91,7 @@ export default class App extends Component {
                     />
                 )}
 
-                {images.length > 0 && loading && (
-                    <Spinner height={100} width={100} />
-                )}
+                {loading && <Spinner height={100} width={100} />}
 
                 {images.length > 0 && !loading && (
                     <Button
@@ -101,6 +99,7 @@ export default class App extends Component {
                         scrollTo={this.scrollTo}
                     />
                 )}
+
                 {selectImgUrl && (
                     <Modal
                         imageUrl={selectImgUrl}

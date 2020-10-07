@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/goit-react-homework/homework-03/phonebook/build/static/css/main.84d62536.chunk.css",
+    "main.js": "/goit-react-homework/homework-03/phonebook/build/static/js/main.50cfe061.chunk.js",
+    "main.js.map": "/goit-react-homework/homework-03/phonebook/build/static/js/main.50cfe061.chunk.js.map",
+    "runtime-main.js": "/goit-react-homework/homework-03/phonebook/build/static/js/runtime-main.142ba199.js",
+    "runtime-main.js.map": "/goit-react-homework/homework-03/phonebook/build/static/js/runtime-main.142ba199.js.map",
+    "static/js/2.4fefdcff.chunk.js": "/goit-react-homework/homework-03/phonebook/build/static/js/2.4fefdcff.chunk.js",
+    "static/js/2.4fefdcff.chunk.js.map": "/goit-react-homework/homework-03/phonebook/build/static/js/2.4fefdcff.chunk.js.map",
+    "index.html": "/goit-react-homework/homework-03/phonebook/build/index.html",
+    "precache-manifest.4f00fab7099a434b8bcc8a2e62b9b6dc.js": "/goit-react-homework/homework-03/phonebook/build/precache-manifest.4f00fab7099a434b8bcc8a2e62b9b6dc.js",
+    "service-worker.js": "/goit-react-homework/homework-03/phonebook/build/service-worker.js",
+    "static/css/main.84d62536.chunk.css.map": "/goit-react-homework/homework-03/phonebook/build/static/css/main.84d62536.chunk.css.map",
+    "static/js/2.4fefdcff.chunk.js.LICENSE.txt": "/goit-react-homework/homework-03/phonebook/build/static/js/2.4fefdcff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.142ba199.js",
+    "static/js/2.4fefdcff.chunk.js",
+    "static/css/main.84d62536.chunk.css",
+    "static/js/main.50cfe061.chunk.js"
+  ]
+}

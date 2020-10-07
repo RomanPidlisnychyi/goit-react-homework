@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/goit-react-homework/homework-03/image-finder/build/static/css/main.58db2465.chunk.css",
+    "main.js": "/goit-react-homework/homework-03/image-finder/build/static/js/main.1326b4d4.chunk.js",
+    "main.js.map": "/goit-react-homework/homework-03/image-finder/build/static/js/main.1326b4d4.chunk.js.map",
+    "runtime-main.js": "/goit-react-homework/homework-03/image-finder/build/static/js/runtime-main.e623752f.js",
+    "runtime-main.js.map": "/goit-react-homework/homework-03/image-finder/build/static/js/runtime-main.e623752f.js.map",
+    "static/js/2.cf45a201.chunk.js": "/goit-react-homework/homework-03/image-finder/build/static/js/2.cf45a201.chunk.js",
+    "static/js/2.cf45a201.chunk.js.map": "/goit-react-homework/homework-03/image-finder/build/static/js/2.cf45a201.chunk.js.map",
+    "index.html": "/goit-react-homework/homework-03/image-finder/build/index.html",
+    "precache-manifest.ddab52483ca58221478c916e04101df8.js": "/goit-react-homework/homework-03/image-finder/build/precache-manifest.ddab52483ca58221478c916e04101df8.js",
+    "service-worker.js": "/goit-react-homework/homework-03/image-finder/build/service-worker.js",
+    "static/css/main.58db2465.chunk.css.map": "/goit-react-homework/homework-03/image-finder/build/static/css/main.58db2465.chunk.css.map",
+    "static/js/2.cf45a201.chunk.js.LICENSE.txt": "/goit-react-homework/homework-03/image-finder/build/static/js/2.cf45a201.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e623752f.js",
+    "static/js/2.cf45a201.chunk.js",
+    "static/css/main.58db2465.chunk.css",
+    "static/js/main.1326b4d4.chunk.js"
+  ]
+}

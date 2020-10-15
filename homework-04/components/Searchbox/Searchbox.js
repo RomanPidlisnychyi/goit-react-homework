@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import Form from './styles';
+import PropTypes from 'prop-types';
 
 export default class Searchbox extends Component {
+    static propTypes = {
+        onSubmit: PropTypes.func,
+    };
+
     state = { value: '' };
 
     handleChange = e => {

@@ -33,11 +33,7 @@ export default class Cast extends Component {
                         {newCast.map(actor => (
                             <li key={actor.cast_id}>
                                 <Img
-                                    src={
-                                        actor.profile_path
-                                            ? `https://image.tmdb.org/t/p/w500/${actor.profile_path}`
-                                            : 'http://bushido.pp.ua/pics/all4/noimage565465654.gif'
-                                    }
+                                    src={`https://image.tmdb.org/t/p/w500/${actor.profile_path}`}
                                     alt={actor.name}
                                 />
                                 <p>

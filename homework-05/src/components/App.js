@@ -92,7 +92,7 @@ export default class App extends Component {
                     in={nameAlreadyExist}
                     appear
                     classNames="InfoMessage-fade"
-                    timeout={500}
+                    timeout={250}
                     unmountOnExit
                 >
                     <InfoMessage>Contact already exists!</InfoMessage>

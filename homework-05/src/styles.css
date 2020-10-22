@@ -39,6 +39,6 @@
 }
 
 .InfoMessage-fade-exit-active {
-    transform: translateX(200%);
+    transform: translateX(100%);
     transition: transform 250ms linear;
 }

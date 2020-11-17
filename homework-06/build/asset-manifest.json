@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/goit-react-homework/homework-06/build/static/css/main.b50a206b.chunk.css",
+    "main.js": "/goit-react-homework/homework-06/build/static/js/main.ae21c769.chunk.js",
+    "main.js.map": "/goit-react-homework/homework-06/build/static/js/main.ae21c769.chunk.js.map",
+    "runtime-main.js": "/goit-react-homework/homework-06/build/static/js/runtime-main.96b1045e.js",
+    "runtime-main.js.map": "/goit-react-homework/homework-06/build/static/js/runtime-main.96b1045e.js.map",
+    "static/js/2.08141c51.chunk.js": "/goit-react-homework/homework-06/build/static/js/2.08141c51.chunk.js",
+    "static/js/2.08141c51.chunk.js.map": "/goit-react-homework/homework-06/build/static/js/2.08141c51.chunk.js.map",
+    "index.html": "/goit-react-homework/homework-06/build/index.html",
+    "precache-manifest.2358c2764476dedaddf3a01850e56a89.js": "/goit-react-homework/homework-06/build/precache-manifest.2358c2764476dedaddf3a01850e56a89.js",
+    "service-worker.js": "/goit-react-homework/homework-06/build/service-worker.js",
+    "static/css/main.b50a206b.chunk.css.map": "/goit-react-homework/homework-06/build/static/css/main.b50a206b.chunk.css.map",
+    "static/js/2.08141c51.chunk.js.LICENSE.txt": "/goit-react-homework/homework-06/build/static/js/2.08141c51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96b1045e.js",
+    "static/js/2.08141c51.chunk.js",
+    "static/css/main.b50a206b.chunk.css",
+    "static/js/main.ae21c769.chunk.js"
+  ]
+}

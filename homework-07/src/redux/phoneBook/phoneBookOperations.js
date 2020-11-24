@@ -1,6 +1,6 @@
 import phoneBookActions from './phoneBookActions';
 
-const baseURL = 'http://my-json-server.typicode.com/RomanPidlisnychyi/server';
+const baseURL = 'https://my-json-server.typicode.com/RomanPidlisnychyi/server';
 
 const getContacts = () => dispatch => {
     dispatch(phoneBookActions.fetchContactsRequest());

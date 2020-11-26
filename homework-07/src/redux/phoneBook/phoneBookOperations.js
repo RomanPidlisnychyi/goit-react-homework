@@ -1,6 +1,7 @@
 import phoneBookActions from './phoneBookActions';
 
-const baseURL = 'https://my-json-server.typicode.com/RomanPidlisnychyi/server';
+const baseURL =
+    'https://my-json-server.typicode.com/RomanPidlisnychyi/goit-react-homework';
 
 const getContacts = () => dispatch => {
     dispatch(phoneBookActions.fetchContactsRequest());

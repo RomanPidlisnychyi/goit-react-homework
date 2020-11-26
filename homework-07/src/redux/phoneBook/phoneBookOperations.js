@@ -1,4 +1,5 @@
 import phoneBookActions from './phoneBookActions';
+import phoneBookSelectors from './phoneBookSelectors';
 
 const baseURL =
     'https://my-json-server.typicode.com/RomanPidlisnychyi/goit-react-homework';
@@ -15,7 +16,7 @@ const getContacts = () => dispatch => {
 const setContact = (name, number) => (dispatch, getState) => {
     dispatch(phoneBookActions.createContactRequest());
 
-    const contacts = getState().items;
+    const contacts = phoneBookSelectors.getContacts(getState());
 
     const isContactExist = contacts.find(contact => contact.name === name);
 

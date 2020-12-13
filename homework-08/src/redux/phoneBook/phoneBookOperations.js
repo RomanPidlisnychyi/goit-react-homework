@@ -1,13 +1,23 @@
 import phoneBookActions from './phoneBookActions';
 import phoneBookSelectors from './phoneBookSelectors';
+import { authSelectors } from '../auth';
 
-const baseURL =
-    'https://my-json-server.typicode.com/RomanPidlisnychyi/goit-react-homework';
+const baseURL = 'https://goit-phonebook-api.herokuapp.com';
 
-const getContacts = () => dispatch => {
-    dispatch(phoneBookActions.fetchContactsRequest());
+const getContacts = () => (dispatch, getState) => {
+    dispatch(phoneBookActions.fetchContactsRequest(getState()));
 
-    fetch(`${baseURL}/contacts`)
+    const token = authSelectors.getToken(getState());
+
+    const options = {
+        method: 'GET',
+        headers: {
+            authorization: `Bearer ${token}`,
+            'Content-Type': 'application/json',
+        },
+    };
+
+    fetch(`${baseURL}/contacts`, options)
         .then(response => response.json())
         .then(data => dispatch(phoneBookActions.fetchContactsSuccess(data)))
         .catch(error => dispatch(phoneBookActions.fetchContactsError(error)));
@@ -26,12 +36,15 @@ const setContact = (name, number) => (dispatch, getState) => {
         return;
     }
 
+    const token = authSelectors.getToken(getState());
+
     const options = {
         method: 'POST',
         headers: {
+            authorization: `Bearer ${token}`,
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, number, id: Date.now() }),
+        body: JSON.stringify({ name, number }),
     };
 
     fetch(`${baseURL}/contacts`, options)
@@ -40,12 +53,15 @@ const setContact = (name, number) => (dispatch, getState) => {
         .catch(error => dispatch(phoneBookActions.createContactError(error)));
 };
 
-const deleteContact = id => dispatch => {
+const deleteContact = id => (dispatch, getState) => {
     dispatch(phoneBookActions.removeContactRequest());
+
+    const token = authSelectors.getToken(getState());
 
     const options = {
         method: 'DELETE',
         headers: {
+            authorization: `Bearer ${token}`,
             'Content-Type': 'application/json',
         },
     };

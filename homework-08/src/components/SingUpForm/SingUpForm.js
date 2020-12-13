@@ -21,7 +21,8 @@ export default function SingUpForm() {
 
     const passwordValid = password !== '' && password.length > 7;
 
-    const confirmPasswordValid = password === confirmPassword;
+    const confirmPasswordValid =
+        password === confirmPassword && confirmPassword !== '';
 
     const btnActive =
         nameValid && emailValid && passwordValid && confirmPasswordValid;
@@ -71,7 +72,7 @@ export default function SingUpForm() {
                     onChange={e => setConfirmPassword(e.target.value)}
                     value={confirmPassword}
                 />
-                {!confirmPasswordValid && (
+                {!confirmPasswordValid && confirmPassword && (
                     <Styles.Span>Passwords do not match!</Styles.Span>
                 )}
             </Styles.FormGroup>

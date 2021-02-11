@@ -5,10 +5,9 @@ import routes from '../routes';
 
 export default function App() {
   const appRoutes = routes.filter(
-    route => route.label !== 'Cast' && route.label !== 'Reviews',
+    route => route.label !== 'Cast' && route.label !== 'Reviews'
   );
 
-  console.log('appRoutes', appRoutes);
   return (
     <Layout>
       <Suspense fallback={<h1>Loading...</h1>}>

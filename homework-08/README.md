@@ -1,1 +1,1 @@
-https://prg-goit-react-hw-04-movies.netlify.app
+https://prg-goit-react-hw-08-phonebook.netlify.app
